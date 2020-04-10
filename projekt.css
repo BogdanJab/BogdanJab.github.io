@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("most.jpg");
+	background-image: url("images/most.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -36,6 +36,21 @@ body
 	padding-right: 25px;
 	padding-bottom: 5px;
 }
+.menu > li > a
+{
+	font-size: 30px;
+	font-family: 'Century Gothic';
+	color: white;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
 .sidebar
 {
 	list-style-position: outside;
@@ -44,7 +59,7 @@ body
 	margin-right: 3%;
 	float: left;
 	background-color: black;
-	width: 13%;
+	width: 15%;
 	height: 1000px;
 	display: block;
 }
@@ -58,6 +73,20 @@ body
 	padding-left: 5px;
 	padding-right: 35px;
 	padding-bottom: 15px;
+	list-style-type: none;
+}
+
+.sidebar > li > a
+{
+	font-size: 23px;
+	text-align: center;
+	font-family: 'Century Gothic';
+	color: white;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 35px;
+	padding-bottom: 15px;
+	text-decoration: none;
 }
 
 .sidebarsmol1
@@ -147,4 +176,19 @@ body
 	height: fit-content;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.subsite
+{
+	background-image: none;
+	background-color: white;
+	font-family: 'Century Gothic';
+	color: #000000;
+	font-family: 'Century Gothic' rgb(0, 0, 0);
+	font-size: 20px;
+	text-align: justify;
+}
+.subsite > h1
+{
+	text-align: left;
 }
